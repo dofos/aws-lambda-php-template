@@ -34,7 +34,9 @@ cd php-5.6.5/
 	\
 	--enable-mbstring	\
 	\
-	--enable-sockets
+	--enable-sockets \
+	--enable-bcmath
+
 
 make
 make install 
