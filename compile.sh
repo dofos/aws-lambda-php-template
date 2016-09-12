@@ -9,9 +9,9 @@ wget http://ro1.php.net/get/php-5.6.25.tar.gz/from/this/mirror -O php-5.6.x.tar.
 rm -rf php-5.6.x/
 tar zxvf php-5.6.x.tar.gz
 
-cd php-5.6.x/
+cd php-5.6.25
 
-./configure --prefix=/tmp/php-5.6.x/compiled/	\
+./configure --prefix=/tmp/php-5.6.25/compiled/	\
 	--without-pear	\
 	--enable-shared=no	\
 	--enable-static=yes	\
