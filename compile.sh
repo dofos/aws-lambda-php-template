@@ -5,13 +5,13 @@ PWD=pwd
 yum install -y libexif-devel libjpeg-devel gd-devel curl-devel openssl-devel libxml2-devel
 
 cd /tmp
-wget http://ro1.php.net/get/php-5.6.5.tar.gz/from/this/mirror -O php-5.6.5.tar.gz
-rm -rf php-5.6.5/
-tar zxvf php-5.6.5.tar.gz
+wget http://ro1.php.net/get/php-5.6.25.tar.gz/from/this/mirror -O php-5.6.x.tar.gz
+rm -rf php-5.6.x/
+tar zxvf php-5.6.x.tar.gz
 
-cd php-5.6.5/
+cd php-5.6.x/
 
-./configure --prefix=/tmp/php-5.6.5/compiled/	\
+./configure --prefix=/tmp/php-5.6.x/compiled/	\
 	--without-pear	\
 	--enable-shared=no	\
 	--enable-static=yes	\
